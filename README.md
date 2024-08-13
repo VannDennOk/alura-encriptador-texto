@@ -36,6 +36,7 @@
 </p>
 
 <h3>Ejemplo :thumbsup:</h3>      
+<br> 
 <p align="left">
     <img src="https://img.shields.io/badge/gato_=>_galtober_<=>_galtober_=>_gato-gray?style=flat">
 </p>
@@ -48,11 +49,12 @@
 <h2>Acceso al proyecto :link:</h2>
 <p> 
     Versión v.1:
-<br> 
+<br>
+<br>  
     &#9670;
-    <a href="https://github.com/VannDennOk/encriptador-texto-alura"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v1-darkviolet"></a> 
+    <a href="https://github.com/VannDennOk/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v1-darkviolet"></a> 
     &#9670; 
-    <a href="https://vanndennok.github.io/encriptador-texto-alura"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v1-darkviolet"></a> 
+    <a href="https://vanndennok.github.io/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v1-darkviolet"></a> 
     &#9670;
 </p>
 
@@ -60,6 +62,7 @@
 <p>
     El proyecto fue desarrollado por Vanina Denegri en base a los diseños provistos por Alura-Latam.
 <br>
+<br> 
     &#9632;
     <a href="https://github.com/VannDennOk/"><img alt="Static Badge" src="https://img.shields.io/badge/Mi_perfil_de_GitHub-blue"></a> 
     &#9632; 
@@ -71,6 +74,7 @@
 <p>
     Links útiles y utilizados para realizar este README:
 <br>
+<br> 
     &#9679;
     <a href="https://gist.github.com/rxaviers/7360908"><img alt="Static Badge" src="https://img.shields.io/badge/Lista_de_emojis_para_GitHub-darkslategray"></a>
     &#9679;

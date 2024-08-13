@@ -50,9 +50,9 @@
     Versión v.1:
 <br> 
     &#9670;
-    <a href="https://github.com/VannDennOk/encriptador-texto-alura"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v1-DarkViolet"></a> 
+    <a href="https://github.com/VannDennOk/encriptador-texto-alura"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v1-darkviolet"></a> 
     &#9670; 
-    <a href="https://vanndennok.github.io/encriptador-texto-alura"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v1-DarkViolet"></a> 
+    <a href="https://vanndennok.github.io/encriptador-texto-alura"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v1-darkviolet"></a> 
     &#9670;
 </p>
 
@@ -63,7 +63,7 @@
     &#9632;
     <a href="https://github.com/VannDennOk/"><img alt="Static Badge" src="https://img.shields.io/badge/Mi_perfil_de_GitHub-blue"></a> 
     &#9632; 
-    <a href="https://www.linkedin.com/in/vaninadenegri/"><img alt="Static Badge" src="https://img.shields.io/badge/Mi_perfil_de_LinkedIn-DarkBlue"></a> 
+    <a href="https://www.linkedin.com/in/vaninadenegri/"><img alt="Static Badge" src="https://img.shields.io/badge/Mi_perfil_de_LinkedIn-darkblue"></a> 
     &#9632;
 </p>
 
@@ -72,10 +72,10 @@
     Links útiles y utilizados para realizar este README:
 <br>
     &#9679;
-    <a href="https://gist.github.com/rxaviers/7360908"><img alt="Static Badge" src="https://img.shields.io/badge/Lista_de_emojis_para_GitHub-DarkSlateGray"></a>
+    <a href="https://gist.github.com/rxaviers/7360908"><img alt="Static Badge" src="https://img.shields.io/badge/Lista_de_emojis_para_GitHub-darkslategray"></a>
     &#9679;
-    <a href="https://shields.io"><img alt="Static Badge" src="https://img.shields.io/badge/Img Shields-DarkSlateGray"></a>
+    <a href="https://shields.io"><img alt="Static Badge" src="https://img.shields.io/badge/Img Shields-darkslategray"></a>
     &#9679;
-    <a href="https://github.com/othneildrew/Best-README-Template/tree/master"><img alt="Static Badge" src="https://img.shields.io/badge/Ejemplo_Modelo_de_ReadMe-DarkSlateGray "></a>
+    <a href="https://github.com/othneildrew/Best-README-Template/tree/master"><img alt="Static Badge" src="https://img.shields.io/badge/Ejemplo_Modelo_de_ReadMe-darkslategray "></a>
     &#9679; 
 </p>

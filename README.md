@@ -62,7 +62,7 @@
 <br>
 <br>  
     &#9670;
-    <a href="https://github.com/VannDennOk/alura-encriptador-texto/tree/version2"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v2-indigo"></a>
+    <a href="https://github.com/VannDennOk/alura-encriptador-texto-v2"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v2-indigo"></a>
     &#9670;
     <a href="https://vanndennok.github.io/alura-encriptador-texto-v2"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v2-indigo"></a>
     &#9670;

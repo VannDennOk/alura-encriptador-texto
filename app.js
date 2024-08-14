@@ -40,9 +40,9 @@ function desencriptar(){
     .replaceAll("ober", "o")
     .replaceAll("ufat", "u");
 
-    if (textoCifrado.match(caracteresEsp)){     //Valida que no haya caracteres especiales
+    if (textoCifrado.match(caracteresEsp)){    //Valida que no haya caracteres especiales
       mensajeError();
-    } else if (textoCifrado.length != "" && !texto.match(caracteresEsp)) {     //solo desencripta si no hay caracteres especiales
+    } else if (textoCifrado.length != "" && !texto.match(caracteresEsp)) {    //solo desencripta si no hay caracteres especiales
       document.getElementById("mensajeFinal").value = texto;
       cambioDisplay();
       } else {

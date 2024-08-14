@@ -1,4 +1,4 @@
-<h1>ENCRIPTADOR DE TEXTO :mag:</h1>
+<h1>ENCRIPTADOR DE TEXTO v.1 :mag:</h1>
 
 <p align="center">
     <img src="./assets/Portada.png" alt="vista del encriptador" width="600">
@@ -47,14 +47,24 @@
 </p>
 
 <h2>Acceso al proyecto :link:</h2>
-<p> 
-    Versión v.1:
+<p>
+    Versión v.1 (original):
 <br>
 <br>  
     &#9670;
-    <a href="https://github.com/VannDennOk/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v1-darkviolet"></a> 
-    &#9670; 
-    <a href="https://vanndennok.github.io/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v1-darkviolet"></a> 
+    <a href="https://github.com/VannDennOk/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v1-darkviolet"></a>
+    &#9670;
+    <a href="https://vanndennok.github.io/alura-encriptador-texto"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v1-darkviolet"></a>
+    &#9670;
+<br>
+<br>
+    Versión v.2 (personalizada):
+<br>
+<br>  
+    &#9670;
+    <a href="https://github.com/VannDennOk/alura-encriptador-texto-v2"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_del_proyecto_v2-indigo"></a>
+    &#9670;
+    <a href="https://vanndennok.github.io/alura-encriptador-texto-v2"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub_Page_v2-indigo"></a>
     &#9670;
 </p>
 
@@ -66,7 +76,7 @@
     &#9632;
     <a href="https://github.com/VannDennOk/"><img alt="Static Badge" src="https://img.shields.io/badge/Mi_perfil_de_GitHub-blue"></a> 
     &#9632; 
-    <a href="https://www.linkedin.com/in/vaninadenegri/"><img alt="Static Badge" src="https://img.shields.io/badge/Mi_perfil_de_LinkedIn-darkblue"></a> 
+    <a href="https://www.linkedin.com/in/vaninadenegri/"><img alt="Static Badge" src="https://img.shields.io/badge/Mi_perfil_de_LinkedIn-blue"></a> 
     &#9632;
 </p>
 

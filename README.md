@@ -19,11 +19,11 @@
 <p>
     La encriptación funciona de ida y vuelta usando las claves:
     <br>
-    <br>:small_blue_diamond: La letra "a" es convertida para "al"
-    <br>:small_blue_diamond: La letra "e" es convertida para "enter"
-    <br>:small_blue_diamond: La letra "i" es convertida para "imes"
-    <br>:small_blue_diamond: La letra "o" es convertida para "ober"
-    <br>:small_blue_diamond: La letra "u" es convertida para "ufat"
+    <br>:small_blue_diamond: La letra "a" es convertida a "ai"
+    <br>:small_blue_diamond: La letra "e" es convertida a "enter"
+    <br>:small_blue_diamond: La letra "i" es convertida a "imes"
+    <br>:small_blue_diamond: La letra "o" es convertida a "ober"
+    <br>:small_blue_diamond: La letra "u" es convertida a "ufat"
 </p>
 
 <h3>Requisitos :clipboard:</h3>

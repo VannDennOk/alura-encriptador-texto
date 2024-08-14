@@ -1,4 +1,4 @@
-<h1>ENCRIPTADOR DE TEXTO v.1 :mag:</h1>
+<h1>ENCRIPTADOR DE TEXTO V.1 :mag:</h1>
 
 <p align="center">
     <img src="./assets/Portada.png" alt="vista del encriptador" width="600">

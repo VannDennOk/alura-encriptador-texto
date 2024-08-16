@@ -25,7 +25,14 @@ font-size: 16px = 1rem
 }
 
 body{
+    background-color: violet;
+}
+
+main{
     background-color: var(--color-LightBlue100-fondo);
+    height: 100vh;
+    width: 100vw;
+
 }
 
 /*ORGANIZA TODOS LOS ELEMENTOS: LOGO CONTAINER 1 Y CONTAINER 2*/
@@ -34,29 +41,28 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    height: 100vh;
-    width: 98vw;
+    width: 100%;
+    height: 100%;
 }
 
 .logo{
-    padding: 1% 0 0;
+    padding: 3% 0%;
 }
 
 /*CONTAINER 1*/
 /*parte izquierda*/
 .container1{
-    width: 55%;
+    width: 47.22%;
     height: 100%;
-    padding: 1%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    gap: 1.56%;
     align-items: flex-start;
 }
 
 /*agrego un titulo para que se entienda mejor la funcionalidad de la página*/
 .container1__titulo{
-    left: 1%;
     font-family: var(--font-inter);
     font-size: 2.5rem;
     font-weight: 700;
@@ -66,10 +72,9 @@ body{
 /*recuadro para ingresar el texto a encriptar*/
 .container1__areaTexto{
     width: 100%;
-    height: 56%;
+    height: 65.14%;
     background-color: var(--color-LightBlue100-fondo);
     text-align: left;
-    margin-top: 7%;
     resize: none;
 }
 
@@ -95,11 +100,13 @@ textarea{
 /*mensaje de adevrtencia - definición del espacio que ocupa*/
 .container1__advertencia{
     width: 100%;
-    height: 8%;
+    height: 1.76%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: left;
+    gap: 16px;
+    padding-left: 1%;
 }
 
 /*mensaje de adevrtencia - formato del ícono*/
@@ -114,7 +121,6 @@ textarea{
     font-size: 0.75rem;
     font-weight: 400;
     color: var(--color-Gray400-texto);
-    margin-left: 1%;
 }
 
 /*botones - definición del espacio que ocupan*/
@@ -127,7 +133,8 @@ textarea{
 
 /*botones - formato*/
 .container1__button__encriptar{
-    width: 49%;
+    height: 67px;
+    width: 48.24%;
     font-family: var(--font-inter);
     font-size: 1rem;
     font-weight: 400;
@@ -142,7 +149,8 @@ textarea{
 
 /*botones - formato*/
 .container1__button__desencriptar{
-    width: 49%;
+    height: 67px;
+    width: 48.24%;
     font-family: var(--font-inter);
     font-size: 1rem;
     font-weight: 400;
@@ -158,7 +166,7 @@ textarea{
 /*CONTAINER 2*/
 /*parte derecha*/
 .container2{
-    width: 30%;
+    width: 27.78%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -169,7 +177,7 @@ textarea{
 /*rectángulo blanco*/
 .container2__box{
     width: 100%;
-    height: 95%;
+    height: 92.19%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,7 +185,7 @@ textarea{
     background-color: var(--color-White);
     border-radius: 32px;
     box-shadow: 0px 8px 16px -8px var(--color-Gray400-texto);
-    padding: 3%;    
+    padding-bottom: 3.39%;
 }
 
 /*imagen que desaparece al encriptar el texto*/
@@ -208,9 +216,9 @@ textarea{
 
 /*área que muestra el texto encriptado - se muestra luego de hacer click en el botón*/
 .container2__areaTexto2{
-    width: 90%;
+    width: 84%;
     margin-top: 5%;
-    height: 70%;
+    height: 82.73%;
     text-align: left;
     resize: none;
 }
@@ -218,11 +226,10 @@ textarea{
 /*boton COPIAR - definición del espacio que ocupa*/
 .container2__button{
     height: 67px;
-    width: 85%;
+    width: 84.00%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
 }
 
 /*boton COPIAR - formato*/
@@ -242,6 +249,7 @@ textarea{
 
 /*FOOTER*/
 .footer{
+    height: 10%;
     background-color: var(--color-DarkBlue300-acento);
     display: flex;
     flex-direction: row;
@@ -327,64 +335,39 @@ textarea{
 @media (max-width: 942px) {
     .container{
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: space-between;
+        gap: 5.45%;
         align-items: flex-start;
     }
-    .logo{
-        padding: 3%;
-    }
+
     .container1{
         width: 100%;
-        height: 45%;
-        padding: 0% 8%;
+        height: 59.37%;
+        padding: 0% 5.21%;
     }
-    .container1__titulo{
-        left: 0%;
-        font-size: 2rem;
-        padding: 0%;
-    }
+
     .container1__areaTexto{
-        height: 50%;
-        margin-top: 5%;
+        height: 83.36%;
         padding: 0%;
     }
-    ::placeholder{
-        font-size: 1.5rem;    
-    }
-    textarea{
-        font-size: 1.5rem;
-        line-height: 150%;
-    }
-    .container1__advertencia{
-        margin-top: 1%;
-        margin-bottom: 2%;
-    }
-    .container1__button, .container2__button{
-        height: 57px;
-    }
-    .container1__button__encriptar, .container1__button__desencriptar, .container2__button__copiar{
-        border-radius: 20px;
-        padding: 14px 24px;
-    }
+
     .container2{
         width: 100%;
-        height: 38%;
-        padding: 0% 8% 1%;
+        height: 15.33%;
+        padding: 0% 5.21% 3.41%;
     }
     .container2__box{
         width: 100%;
-        height: 90%;
-        padding: 2%;
+        height: 100%;
+        padding: 0%;
     }
     .container2__imagenMunieco{
         display: none;
     }
     .container2__titulo{
-        font-size: 1rem;
         padding: 15% 0% 1%;
     }
     .container2__texto{
-        font-size: 0.75rem;
         padding: 1% 0%;
     }
     .container2__areaTexto2{
@@ -398,10 +381,11 @@ textarea{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
     .footer__link__area{
-        gap: 32px;
+        gap: 24px;
         padding: 32px 0px 0px;
     }
 }
@@ -409,26 +393,27 @@ textarea{
 /*///////////////////////////////////////////////////////////////////////////////////////////////*/
 /*DISEÑO RESPONSIVO - CELULAR*/
 @media (max-width: 600px) {
+
+    .logo{
+        padding: 3% 0%;
+    }
+
     .container{
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 5%;
         align-items: flex-start;
-    }  
-    .logo{
-        padding: 3%;
     }
+
     .container1{
-        width: 100%;
-        height: 55%;
-        padding: 0% 8%;
+        height: 52.63%;
+        gap: 16px;
     }
-    .container1__titulo{
-        left: 0%;
+    .container1__titulo {
         font-size: 1.5rem;
-        padding: 0%;
     }
     .container1__areaTexto{
-        height: 50%;
+        height: 60.90%;
         margin-top: 0%;
         padding: 0%;
     }
@@ -437,58 +422,43 @@ textarea{
     }
     textarea{
         font-size: 1rem;
-        line-height: 150%;
-    }
-    .container1__advertencia{
-        margin: 1% 0% 2%;
     }
     .container1__button, .container2__button{
-        height: 45px;
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 5px;
+        gap: 24px;
         padding: 0%;
     }
     .container1__button__encriptar, .container1__button__desencriptar, .container2__button__copiar{  
+        height: 67px;
         width: 100%;
         border-radius: 20px;
         padding: 8px 24px;
     }
     .container2{
         width: 100%;
-        height: 30%;
-        padding: 0% 8% 3%;
+        height: 19.94%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
     }
-    .container2__box{
-        width: 100%;
-        height: 95%;
-        padding: 0%;
-    }
-    .container2__imagenMunieco{
-        display: none;
-    }
+
     .container2__titulo{
         font-size: 1rem;
-        padding: 15% 0% 1%;
+        padding: 0% 15% 0%;
     }
     .container2__texto{
         font-size: 0.75rem;
-        padding: 1% 0%;
+        padding: 0% 15% 0%;
     }
     .container2__areaTexto2{
         width: 85%;
-        margin-top: 3%;
         height: 30%;
         text-align: left;
-        resize: none;
     }
-    .footer{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .footer__link{
-        width: 6%;
-    }
+    
 }

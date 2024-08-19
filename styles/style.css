@@ -24,45 +24,36 @@ font-size: 16px = 1rem
     padding: 0;
 }
 
-body{
-    background-color: violet;
-}
-
 main{
-    background-color: var(--color-LightBlue100-fondo);
-    height: 100vh;
-    width: 100vw;
-
-}
-
-/*ORGANIZA TODOS LOS ELEMENTOS: LOGO CONTAINER 1 Y CONTAINER 2*/
-.container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
-    width: 100%;
-    height: 100%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 3%;
+    background-color: var(--color-LightBlue100-fondo);
 }
 
 .logo{
-    padding: 3% 0%;
+    height: 48px;
 }
 
-/*CONTAINER 1*/
 /*parte izquierda*/
-.container1{
+.izquierda{
     width: 47.22%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 1.56%;
+    justify-content: space-around;
+    gap: 16px;
     align-items: flex-start;
+    padding-bottom: 1%;
 }
 
 /*agrego un titulo para que se entienda mejor la funcionalidad de la página*/
-.container1__titulo{
+.titulo{
     font-family: var(--font-inter);
     font-size: 2.5rem;
     font-weight: 700;
@@ -70,22 +61,21 @@ main{
 }
 
 /*recuadro para ingresar el texto a encriptar*/
-.container1__areaTexto{
+.mensajeInicial{
     width: 100%;
-    height: 65.14%;
-    background-color: var(--color-LightBlue100-fondo);
+    height: 100%;
     text-align: left;
     resize: none;
+    background-color: var(--color-LightBlue100-fondo);
 }
 
-/*como se va a ver el texto escrito*/
 textarea{
     color: var(--color-DarkBlue300-acento);
     font-family: var(--font-inter);
     font-size: 2rem;
     font-weight: 400;
     border: none;
-    outline: transparent;
+    outline: none;
     line-height: 150%;
 }
 
@@ -97,26 +87,24 @@ textarea{
     font-weight: 400;
 }
 
-/*mensaje de adevrtencia - definición del espacio que ocupa*/
-.container1__advertencia{
+/*mensaje de advertencia - definición del espacio que ocupa*/
+.informacion__area{
     width: 100%;
-    height: 1.76%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: left;
     gap: 16px;
-    padding-left: 1%;
 }
 
-/*mensaje de adevrtencia - formato del ícono*/
-.container1__advertencia__icono{
+/*mensaje de advertencia - formato del ícono*/
+.informacion__icono{
     width: 16px;
     height: 16px;
 }
 
-/*mensaje de adevrtencia - formato del texto*/
-.container1__advertencia__texto{
+/*mensaje de advertencia - formato del texto*/
+.informacion__texto{
     font-family: var(--font-inter);
     font-size: 0.75rem;
     font-weight: 400;
@@ -124,7 +112,7 @@ textarea{
 }
 
 /*botones - definición del espacio que ocupan*/
-.container1__button{
+.botones__area{
     height: 67px;
     width: 100%;
     display: flex;
@@ -132,7 +120,7 @@ textarea{
 }
 
 /*botones - formato*/
-.container1__button__encriptar{
+.btn__encriptar{
     height: 67px;
     width: 48.24%;
     font-family: var(--font-inter);
@@ -148,7 +136,7 @@ textarea{
 }
 
 /*botones - formato*/
-.container1__button__desencriptar{
+.btn__desencriptar{
     height: 67px;
     width: 48.24%;
     font-family: var(--font-inter);
@@ -163,78 +151,61 @@ textarea{
     cursor: pointer;
 }
 
-/*CONTAINER 2*/
 /*parte derecha*/
-.container2{
+.derecha{
     width: 27.78%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-}
-
-/*rectángulo blanco*/
-.container2__box{
-    width: 100%;
-    height: 92.19%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 16px;
     align-items: center;
     background-color: var(--color-White);
     border-radius: 32px;
     box-shadow: 0px 8px 16px -8px var(--color-Gray400-texto);
-    padding-bottom: 3.39%;
+    padding: 2% 2% 1%;
 }
 
 /*imagen que desaparece al encriptar el texto*/
-.container2__imagenMunieco{
-    width: 100%;
-    padding: 30% 20% 0%;
+.ocultar__munieco{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 /*Titulo que desaparece al encriptar el texto*/
-.container2__titulo{
+.ocultar__titulo{
     font-family: var(--font-inter);
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--color-Gray500-texto);
     text-align: center;
-    padding: 5% 20% 0%;
+    padding: 5% 0% 2.5%;
 }
 
 /*texto que desaparece al encriptar el texto*/
-.container2__texto{
+.ocultar__texto{
     font-family: var(--font-inter);
     font-size: 1rem;
     font-weight: 400;
     color: var(--color-Gray400-texto);
     text-align: center;
-    padding: 5% 20% 20%;
+    padding: 2.5% 15% 5%;
 }
 
 /*área que muestra el texto encriptado - se muestra luego de hacer click en el botón*/
-.container2__areaTexto2{
-    width: 84%;
-    margin-top: 5%;
-    height: 82.73%;
+.mensajeFinal{
+    width: 100%;
+    height: 100%;
     text-align: left;
     resize: none;
 }
 
-/*boton COPIAR - definición del espacio que ocupa*/
-.container2__button{
-    height: 67px;
-    width: 84.00%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /*boton COPIAR - formato*/
-.container2__button__copiar{
+.btn__copiar{
     width: 100%;
+    height: 67px;
     font-family: var(--font-inter);
     font-size: 1rem;
     font-weight: 400;
@@ -248,8 +219,7 @@ textarea{
 }
 
 /*FOOTER*/
-.footer{
-    height: 10%;
+footer{
     background-color: var(--color-DarkBlue300-acento);
     display: flex;
     flex-direction: row;
@@ -265,7 +235,7 @@ textarea{
     color: var(--color-White);
 }
 
-.footer__link__area{
+.footer__socialLink__area{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -273,8 +243,9 @@ textarea{
     height: 24px;
 }
 
-.footer__link__icon{
+.linkedin, .github {
     height: 24px;
+    width: 24px;
 }
 
 /*FORMATO DE LOS POPUP o MENSAJES*/
@@ -322,9 +293,9 @@ textarea{
 
 /*HOVER BUTTONS*/
 /*botones - formato cuando se pasa el cursor por arriba*/
-.container1__button__encriptar:hover,
-.container1__button__desencriptar:hover,
-.container2__button__copiar:hover,
+.btn__encriptar:hover,
+.btn__desencriptar:hover,
+.btn__copiar:hover,
 .popup__button:hover{
     background-color: var(--color-DarkBlue200-hover);
     color: var(--color-White);
@@ -332,133 +303,119 @@ textarea{
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////*/
 /*DISEÑO RESPONSIVO - TABLET*/
+
 @media (max-width: 942px) {
-    .container{
+    
+    main{
+        display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        gap: 5.45%;
         align-items: flex-start;
+        justify-content: space-around;
+        gap: 16px;
+        padding: 8% 2%;
     }
 
-    .container1{
+    .izquierda{
         width: 100%;
-        height: 59.37%;
-        padding: 0% 5.21%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 16px;
+        align-items: flex-start;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    
+    .titulo{
+        font-size: 2rem;
     }
 
-    .container1__areaTexto{
-        height: 83.36%;
-        padding: 0%;
-    }
-
-    .container2{
+    .derecha{
         width: 100%;
-        height: 15.33%;
-        padding: 0% 5.21% 3.41%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 6%;
+        padding-bottom: 3%;
     }
-    .container2__box{
-        width: 100%;
-        height: 100%;
-        padding: 0%;
-    }
-    .container2__imagenMunieco{
+       
+    .ocultar__munieco{
         display: none;
     }
-    .container2__titulo{
-        padding: 15% 0% 1%;
+     
+    .ocultar__titulo{
+        padding: 0% 0% 1%;
     }
-    .container2__texto{
-        padding: 1% 0%;
+    
+    .ocultar__texto{
+        padding: 1% 0% 0%;
     }
-    .container2__areaTexto2{
-        width: 85%;
-        margin-top: 5%;
-        height: 50%;
-        text-align: left;
-        resize: none;
+    
+    /*área que muestra el texto encriptado - se muestra luego de hacer click en el botón*/
+    .mensajeFinal{
+        width: 90%;
     }
-    .footer{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    
+    /*boton COPIAR - formato*/
+    .btn__copiar{
+        width: 90%;
     }
 
-    .footer__link__area{
-        gap: 24px;
-        padding: 32px 0px 0px;
+    /*FOOTER*/
+    footer{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 16px;
     }
-}
+    
+    .footer__text{
+        text-align: center;
+    }
+    .popup__box{
+        width: 70%;
+    }   
+}    
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////*/
 /*DISEÑO RESPONSIVO - CELULAR*/
 @media (max-width: 600px) {
-
-    .logo{
-        padding: 3% 0%;
-    }
-
-    .container{
-        flex-direction: column;
-        justify-content: center;
-        gap: 5%;
-        align-items: flex-start;
-    }
-
-    .container1{
-        height: 52.63%;
-        gap: 16px;
-    }
-    .container1__titulo {
-        font-size: 1.5rem;
-    }
-    .container1__areaTexto{
-        height: 60.90%;
-        margin-top: 0%;
-        padding: 0%;
-    }
-    ::placeholder{
-        font-size: 1rem;    
-    }
-    textarea{
-        font-size: 1rem;
-    }
-    .container1__button, .container2__button{
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-        padding: 0%;
-    }
-    .container1__button__encriptar, .container1__button__desencriptar, .container2__button__copiar{  
-        height: 67px;
-        width: 100%;
-        border-radius: 20px;
-        padding: 8px 24px;
-    }
-    .container2{
-        width: 100%;
-        height: 19.94%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        gap: 16px;
-    }
-
-    .container2__titulo{
-        font-size: 1rem;
-        padding: 0% 15% 0%;
-    }
-    .container2__texto{
-        font-size: 0.75rem;
-        padding: 0% 15% 0%;
-    }
-    .container2__areaTexto2{
-        width: 85%;
-        height: 30%;
-        text-align: left;
+    main{
+        padding: 8% 4%;
     }
     
+    .izquierda{
+        height: 70vh;
+        gap: 6px;
+        padding-bottom: 30%;
+    }
+
+    .derecha{
+        height: 30vh;
+    }
+
+    .mensajeInicial{
+        height: 50%;
+    }
+    
+    .botones__area{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 16px;
+    }
+    
+    /*botones - formato*/
+    .btn__encriptar{
+        width: 100%;
+    }
+    
+    /*botones - formato*/
+    .btn__desencriptar{
+        width: 100%;
+    }
+    .popup__box{
+        width: 90%;
+    }   
 }

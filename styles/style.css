@@ -43,7 +43,7 @@ main{
 /*parte izquierda*/
 .izquierda{
     width: 47.22%;
-    height: 100vh;
+    height: 97vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -154,7 +154,7 @@ textarea{
 /*parte derecha*/
 .derecha{
     width: 27.78%;
-    height: 100vh;
+    height: 97vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
